@@ -36,7 +36,7 @@ python3 -m venv env
 source env/bin/activate
 ```
 
-![Virtual Environment Setup](image.png)
+![Virtual Environment Setup](img/image.png)
 
 ---
 
@@ -51,9 +51,9 @@ git add .dvc .dvcignore
 git commit -m "Initialize DVC"
 ```
 
-![DVC Initialization - Step 1](image-1.png)
+![DVC Initialization - Step 1](img/image-1.png)
 
-![DVC Initialization - Step 2](image-2.png)
+![DVC Initialization - Step 2](img/image-2.png)
 
 ---
 
@@ -69,9 +69,9 @@ git commit -m "Remote storage configured"
 git push
 ```
 
-![Remote Storage Configuration](image-4.png)
+![Remote Storage Configuration](img/image-4.png)
 
-![Remote Storage Configuration add to git](image-11.png)
+![Remote Storage Configuration add to git](img/image-11.png)
 
 ---
 
@@ -88,7 +88,7 @@ git tag v1
 git push origin v1
 ```
 
-![Track Main Data - Step 1](image-5.png)
+![Track Main Data - Step 1](img/image-5.png)
 
 ---
 
@@ -114,7 +114,7 @@ git tag v2
 git push origin v2
 ```
 
-![Update Monthly Data - Step 1](image-6.png)
+![Update Monthly Data - Step 1](img/image-6.png)
 
 Repeat the above steps for additional monthly data updates. For example, for Month 3:
 
@@ -128,13 +128,13 @@ git tag v3
 git push origin v3
 ```
 
-![Update Monthly Data - Step 2](image-7.png)
+![Update Monthly Data - Step 2](img/image-7.png)
 
-![Update Monthly Data - Step 3](image-8.png)
+![Update Monthly Data - Step 3](img/image-8.png)
 
 Screenshot for the Final files in VM
 
-![Final files in VM](image-9.png)
+![Final files in VM](img/image-9.png)
 
 ---
 
@@ -188,6 +188,6 @@ cat data/data_main.csv
 
 By following these steps, you can manage and verify specific data versions efficiently.
 
-![Verifying Data](image-12.png)
+![Verifying Data](img/image-12.png)
 
 ---
